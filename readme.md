@@ -2,7 +2,7 @@ Welcome to my portfolio! This space showcases my professional journey, achieveme
 
 - Professional Experience: A comprehensive overview of my roles in Web development highlighting key contributions and accomplishments.  
 
--Projects: Detailed insights into my work, including team collaborations and freelance projects, demonstrating my ability to deliver innovative and impactful solutions.  
+- Projects: Detailed insights into my work, including team collaborations and freelance projects, demonstrating my ability to deliver innovative and impactful solutions.  
 
 - Education and Certifications: Academic achievements and professional training that reflect my commitment to continuous learning and skill development.  
 
