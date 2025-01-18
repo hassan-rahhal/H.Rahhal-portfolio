@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>H.Rahhal Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard Hanrick" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Hassan Rahhal">Hassan Rahhal</h1>
+          <p class="title">Full Stack Web Developer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Linkedin</p>
+              <a href="https://www.linkedin.com/in/hassan-rahhal-984180334" class="contact-link">
+              Hassan Rahhal</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Github</p>
+              <a href="https://github.com/hassan-rahhal" class="contact-link">
+              hassan-rahhal</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:hassanrahhal09@gmail.com" class="contact-link">
+              hassanrahhal09@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+96181092233" class="contact-link">+961 81-092233</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Beirut, Lebanon</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+      </div>
+    </aside>
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>Introduction</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+        </ul>
+      </nav>
+      <article class="about active" data-page="introduction">
+        <header>
+          <h2 class="h2 article-title">Introduction</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            My job is to build your website so that it is functional and user-friendly 
+            but at the same time attractive. Moreover, I add a personal touch to your website
+            and make sure that it is eye-catching and easy to use.
+            My aim is to bring across your message and identity in the most creative way.
+          </p>
+        </section>
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile Development</h4>
+                <p class="service-item-text">
+                  Building mobile apps that drive engagement by focusing on performance, 
+                  usability, and beautiful user interfaces.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full Stack Web Development</h4>
+                <p class="service-item-text">
+                  Creating responsive, user-friendly websites by integrating
+                  modern front-end technologies with solid back-end infrastructure.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" id="vegas-gold">Quality Assurance</h4>
+                <p class="service-item-text">
+                  Experienced in quality assurance, ensuring high standards through 
+                  thorough testing and analysis.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Project Management</h4>
+                <p class="service-item-text">
+                  Skilled in project management, effectively coordinating teams and resources 
+                  to meet deadlines and goals.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <article class="about" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Documents</h3> 
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">CV</h4>
+              <span><a href="assets\hassan-rahhal-resume.pdf" download="assets\hassan-rahhal-resume.pdf">Download CV</a></span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Portfolio Link</h4>
+              <span><a href="#" onclick="copyToClipboard()">Copy Portfolio Link</a></span>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3> 
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Antonine University</h4>
+              <span>2023 — Present</span>
+              <p class="timeline-text">
+                Bachelor in Computer Science "CS"
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Youbee.ai</h4>
+              <span>
+                June 24,&nbsp 2024 — Present
+                <i><b><a href="#" id="certificate"download="cv.pdf">Click here to view Certificate</a></b></i>
+              </span>
+              <p class="timeline-text">
+                Full Stack Web Developer &nbsp" Html,&nbsp Css, &nbspJavascript, &nbspAngular, &nbspPhp, &nbspLaraval, &nbspMySql "
+              </p> 
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Devrabic</h4>
+              <span>
+                November 24,&nbsp 2024 — Present
+                <i><b><a href="#" id="certificate"download="cv.pdf">Click here to view Certificate</a></b></i>
+              </span>
+              <p class="timeline-text">
+                Full Stack Web Developer &nbsp" Html,&nbsp Css,&nbsp SCSS (SASS), &nbspJavascript,&nbsp Node.js, &nbspReact.js, &nbspFirebase, &nbspGit, &nbspGithub"
+              </p> 
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Free lancer</h4>
+              <span>2023 — Present</span>
+              <p class="timeline-text">
+                Create a stunning Websites & Portfolio that showcases your skills, projects, 
+                and achievements, empowering graduating students and newcomers to the job market 
+                to stand out and land their dream opportunities.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Maw3id Online</h4>
+              <span> January, 2023 — Present</span>
+              <p class="timeline-text">
+                Management and maintenance the appointment booking system for a dental
+                and beauty clinic website, ensuring its reliability and functionality.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Connect to net</h4>
+              <span> March, 2023 — Present</span>
+              <p class="timeline-text">
+                As a web developer at Connect to Net, I contributed to creating dynamic, 
+                user-friendly websites using a blend of front-end and back-end technologies.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Xpertbot</h4>
+              <span>
+                October 20,&nbsp 2024 — Present 
+                <i><b><a href="#" id="certificate"download="cv.pdf">Click here to view Certificate</b></a></i>
+              </span>
+              <p class="timeline-text">
+                Internship in :<br>
+                - Web Development<br>
+                - Mobile Development<br>
+                - Quality Assurance<br>
+                - Project Manger
+              </p>
+            </li>
+          </ol>
+        </section>
+      </article>
+      <article class="projects" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+        <section class="projects">
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Finance</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
+  <script>
+
+  const elementToggleFunc = function (elem) { 
+  elem.classList.toggle("active"); 
+  }
+
+  const sidebar = document.querySelector("[data-sidebar]");
+  const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+  sidebarBtn.addEventListener("click", function () { 
+    elementToggleFunc(sidebar); 
+  });
+
+  const navigationLinks = document.querySelectorAll("[data-nav-link]");
+  const pages = document.querySelectorAll("[data-page]");
+  for (let i = 0; i < navigationLinks.length; i++) {
+    navigationLinks[i].addEventListener("click", function () {
+      for (let j = 0; j < pages.length; j++) {
+        if (this.innerHTML.toLowerCase() === pages[j].dataset.page) {
+          pages[j].classList.add("active");
+          navigationLinks[j].classList.add("active");
+          window.scrollTo(0, 0);
+        } else {
+          pages[j].classList.remove("active");
+          navigationLinks[j].classList.remove("active");
+        }
+      }
+    });
+  }
+
+  function copyToClipboard() {
+        const link = "https://example.com"; 
+        navigator.clipboard.writeText(link).then(() => {
+          alert("Link copied to clipboard!");
+        }).catch(err => {
+          console.error("Failed to copy: ", err);
+        });
+  }
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
