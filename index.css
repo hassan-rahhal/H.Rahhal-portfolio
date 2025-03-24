@@ -1867,10 +1867,6 @@ textarea.form-input::-webkit-resizer {
     height: 60px;
   }
 
-  /**
-   * REUSED STYLE
-   */
-
   .sidebar,
   article {
     width: auto;
@@ -1879,10 +1875,6 @@ textarea.form-input::-webkit-resizer {
   article {
     min-height: 100%;
   }
-
-  /**
-   * MAIN
-   */
 
   main {
     max-width: 1200px;
@@ -1898,11 +1890,6 @@ textarea.form-input::-webkit-resizer {
     width: 75%;
     margin: 0;
   }
-
-  /**
-   * SIDEBAR
-   */
-
   .sidebar {
     position: sticky;
     top: 60px;
